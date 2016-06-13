@@ -995,6 +995,19 @@ camera_genpy/fast:
 .PHONY : camera_genpy/fast
 
 #=============================================================================
+# Target rules for targets named cameralogic
+
+# Build rule for target.
+cameralogic: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cameralogic
+.PHONY : cameralogic
+
+# fast build rule for target.
+cameralogic/fast:
+	$(MAKE) -f camera/CMakeFiles/cameralogic.dir/build.make camera/CMakeFiles/cameralogic.dir/build
+.PHONY : cameralogic/fast
+
+#=============================================================================
 # Target rules for targets named dumper
 
 # Build rule for target.
@@ -1631,6 +1644,7 @@ help:
 	@echo "... camera_generate_messages_py"
 	@echo "... camera_genlisp"
 	@echo "... camera_genpy"
+	@echo "... cameralogic"
 	@echo "... dumper"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_lisp"

@@ -407,6 +407,7 @@ SET(CMAKE_DEPEND_INFO_FILES
   "camera/CMakeFiles/camera_generate_messages_py.dir/DependInfo.cmake"
   "camera/CMakeFiles/camera_genlisp.dir/DependInfo.cmake"
   "camera/CMakeFiles/camera_genpy.dir/DependInfo.cmake"
+  "camera/CMakeFiles/cameralogic.dir/DependInfo.cmake"
   "camera/CMakeFiles/dumper.dir/DependInfo.cmake"
   "camera/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake"
   "camera/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake"

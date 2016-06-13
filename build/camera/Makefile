@@ -290,6 +290,20 @@ camera_genpy/fast:
 .PHONY : camera_genpy/fast
 
 # Convenience name for target.
+camera/CMakeFiles/cameralogic.dir/rule:
+	cd /home/student/watergun_2016/build && $(MAKE) -f CMakeFiles/Makefile2 camera/CMakeFiles/cameralogic.dir/rule
+.PHONY : camera/CMakeFiles/cameralogic.dir/rule
+
+# Convenience name for target.
+cameralogic: camera/CMakeFiles/cameralogic.dir/rule
+.PHONY : cameralogic
+
+# fast build rule for target.
+cameralogic/fast:
+	cd /home/student/watergun_2016/build && $(MAKE) -f camera/CMakeFiles/cameralogic.dir/build.make camera/CMakeFiles/cameralogic.dir/build
+.PHONY : cameralogic/fast
+
+# Convenience name for target.
 camera/CMakeFiles/dumper.dir/rule:
 	cd /home/student/watergun_2016/build && $(MAKE) -f CMakeFiles/Makefile2 camera/CMakeFiles/dumper.dir/rule
 .PHONY : camera/CMakeFiles/dumper.dir/rule
@@ -401,6 +415,30 @@ targeter/fast:
 	cd /home/student/watergun_2016/build && $(MAKE) -f camera/CMakeFiles/targeter.dir/build.make camera/CMakeFiles/targeter.dir/build
 .PHONY : targeter/fast
 
+src/cameralogic.o: src/cameralogic.cpp.o
+.PHONY : src/cameralogic.o
+
+# target to build an object file
+src/cameralogic.cpp.o:
+	cd /home/student/watergun_2016/build && $(MAKE) -f camera/CMakeFiles/cameralogic.dir/build.make camera/CMakeFiles/cameralogic.dir/src/cameralogic.cpp.o
+.PHONY : src/cameralogic.cpp.o
+
+src/cameralogic.i: src/cameralogic.cpp.i
+.PHONY : src/cameralogic.i
+
+# target to preprocess a source file
+src/cameralogic.cpp.i:
+	cd /home/student/watergun_2016/build && $(MAKE) -f camera/CMakeFiles/cameralogic.dir/build.make camera/CMakeFiles/cameralogic.dir/src/cameralogic.cpp.i
+.PHONY : src/cameralogic.cpp.i
+
+src/cameralogic.s: src/cameralogic.cpp.s
+.PHONY : src/cameralogic.s
+
+# target to generate assembly for a file
+src/cameralogic.cpp.s:
+	cd /home/student/watergun_2016/build && $(MAKE) -f camera/CMakeFiles/cameralogic.dir/build.make camera/CMakeFiles/cameralogic.dir/src/cameralogic.cpp.s
+.PHONY : src/cameralogic.cpp.s
+
 src/dumper.o: src/dumper.cpp.o
 .PHONY : src/dumper.o
 
@@ -465,6 +503,7 @@ help:
 	@echo "... camera_generate_messages_py"
 	@echo "... camera_genlisp"
 	@echo "... camera_genpy"
+	@echo "... cameralogic"
 	@echo "... dumper"
 	@echo "... edit_cache"
 	@echo "... geometry_msgs_generate_messages_cpp"
@@ -480,6 +519,9 @@ help:
 	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... targeter"
 	@echo "... test"
+	@echo "... src/cameralogic.o"
+	@echo "... src/cameralogic.i"
+	@echo "... src/cameralogic.s"
 	@echo "... src/dumper.o"
 	@echo "... src/dumper.i"
 	@echo "... src/dumper.s"

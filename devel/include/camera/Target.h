@@ -24,26 +24,26 @@ struct Target_
   typedef Target_<ContainerAllocator> Type;
 
   Target_()
-    : x(0)
-    , y(0)
-    , z(0)  {
+    : x(0.0)
+    , y(0.0)
+    , z(0.0)  {
     }
   Target_(const ContainerAllocator& _alloc)
-    : x(0)
-    , y(0)
-    , z(0)  {
+    : x(0.0)
+    , y(0.0)
+    , z(0.0)  {
   (void)_alloc;
     }
 
 
 
-   typedef int64_t _x_type;
+   typedef double _x_type;
   _x_type x;
 
-   typedef int64_t _y_type;
+   typedef double _y_type;
   _y_type y;
 
-   typedef int64_t _z_type;
+   typedef double _z_type;
   _z_type z;
 
 
@@ -123,12 +123,12 @@ struct MD5Sum< ::camera::Target_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "95da2541c9d6989c0876f480a9b1c7e4";
+    return "4a842b65f413084dc2b10fb484ea7f17";
   }
 
   static const char* value(const ::camera::Target_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0x95da2541c9d6989cULL;
-  static const uint64_t static_value2 = 0x0876f480a9b1c7e4ULL;
+  static const uint64_t static_value1 = 0x4a842b65f413084dULL;
+  static const uint64_t static_value2 = 0xc2b10fb484ea7f17ULL;
 };
 
 template<class ContainerAllocator>
@@ -147,9 +147,9 @@ struct Definition< ::camera::Target_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "int64 x\n\
-int64 y\n\
-int64 z\n\
+    return "float64 x\n\
+float64 y\n\
+float64 z\n\
 ";
   }
 
@@ -190,11 +190,11 @@ struct Printer< ::camera::Target_<ContainerAllocator> >
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::camera::Target_<ContainerAllocator>& v)
   {
     s << indent << "x: ";
-    Printer<int64_t>::stream(s, indent + "  ", v.x);
+    Printer<double>::stream(s, indent + "  ", v.x);
     s << indent << "y: ";
-    Printer<int64_t>::stream(s, indent + "  ", v.y);
+    Printer<double>::stream(s, indent + "  ", v.y);
     s << indent << "z: ";
-    Printer<int64_t>::stream(s, indent + "  ", v.z);
+    Printer<double>::stream(s, indent + "  ", v.z);
   }
 };
 

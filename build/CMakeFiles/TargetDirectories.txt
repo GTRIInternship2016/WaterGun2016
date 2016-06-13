@@ -29,6 +29,7 @@
 /home/student/watergun_2016/build/camera/CMakeFiles/camera_generate_messages_py.dir
 /home/student/watergun_2016/build/camera/CMakeFiles/camera_genlisp.dir
 /home/student/watergun_2016/build/camera/CMakeFiles/camera_genpy.dir
+/home/student/watergun_2016/build/camera/CMakeFiles/cameralogic.dir
 /home/student/watergun_2016/build/CMakeFiles/clean_test_results.dir
 /home/student/watergun_2016/build/rosserial/rosserial_client/CMakeFiles/clean_test_results_rosserial_client.dir
 /home/student/watergun_2016/build/camera/dlib_build/CMakeFiles/dlib.dir

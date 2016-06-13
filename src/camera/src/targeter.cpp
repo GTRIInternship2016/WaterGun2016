@@ -21,6 +21,15 @@ bool tracker_initialized = false;
 ros::Publisher pub;
 ros::Rate *r;
 
+/*
+ *
+ * int reference = 2;
+ * int *ptr;
+ * ptr = &reference;
+ * *ptr = 2;
+ *
+ */
+
 void imageCallback(const sensor_msgs::ImageConstPtr& msg)
 {
     try{
