@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "camera: 3 messages, 0 services")
+message(STATUS "camera: 2 messages, 0 services")
 
 set(MSG_I_FLAGS "-Icamera:/home/student/watergun_2016/src/camera/msg;-Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg")
 
@@ -20,11 +20,6 @@ add_custom_target(_camera_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "camera" "/home/student/watergun_2016/src/camera/msg/BoundBox.msg" ""
 )
 
-get_filename_component(_filename "/home/student/watergun_2016/src/camera/msg/BoundImage.msg" NAME_WE)
-add_custom_target(_camera_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "camera" "/home/student/watergun_2016/src/camera/msg/BoundImage.msg" "camera/BoundBox:std_msgs/Header:sensor_msgs/Image"
-)
-
 get_filename_component(_filename "/home/student/watergun_2016/src/camera/msg/Target.msg" NAME_WE)
 add_custom_target(_camera_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "camera" "/home/student/watergun_2016/src/camera/msg/Target.msg" ""
@@ -40,12 +35,6 @@ _generate_msg_cpp(camera
   "/home/student/watergun_2016/src/camera/msg/BoundBox.msg"
   "${MSG_I_FLAGS}"
   ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/camera
-)
-_generate_msg_cpp(camera
-  "/home/student/watergun_2016/src/camera/msg/BoundImage.msg"
-  "${MSG_I_FLAGS}"
-  "/home/student/watergun_2016/src/camera/msg/BoundBox.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/sensor_msgs/cmake/../msg/Image.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/camera
 )
 _generate_msg_cpp(camera
@@ -71,8 +60,6 @@ add_dependencies(camera_generate_messages camera_generate_messages_cpp)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/student/watergun_2016/src/camera/msg/BoundBox.msg" NAME_WE)
 add_dependencies(camera_generate_messages_cpp _camera_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/watergun_2016/src/camera/msg/BoundImage.msg" NAME_WE)
-add_dependencies(camera_generate_messages_cpp _camera_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/student/watergun_2016/src/camera/msg/Target.msg" NAME_WE)
 add_dependencies(camera_generate_messages_cpp _camera_generate_messages_check_deps_${_filename})
 
@@ -89,12 +76,6 @@ _generate_msg_lisp(camera
   "/home/student/watergun_2016/src/camera/msg/BoundBox.msg"
   "${MSG_I_FLAGS}"
   ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/camera
-)
-_generate_msg_lisp(camera
-  "/home/student/watergun_2016/src/camera/msg/BoundImage.msg"
-  "${MSG_I_FLAGS}"
-  "/home/student/watergun_2016/src/camera/msg/BoundBox.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/sensor_msgs/cmake/../msg/Image.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/camera
 )
 _generate_msg_lisp(camera
@@ -120,8 +101,6 @@ add_dependencies(camera_generate_messages camera_generate_messages_lisp)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/student/watergun_2016/src/camera/msg/BoundBox.msg" NAME_WE)
 add_dependencies(camera_generate_messages_lisp _camera_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/watergun_2016/src/camera/msg/BoundImage.msg" NAME_WE)
-add_dependencies(camera_generate_messages_lisp _camera_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/student/watergun_2016/src/camera/msg/Target.msg" NAME_WE)
 add_dependencies(camera_generate_messages_lisp _camera_generate_messages_check_deps_${_filename})
 
@@ -138,12 +117,6 @@ _generate_msg_py(camera
   "/home/student/watergun_2016/src/camera/msg/BoundBox.msg"
   "${MSG_I_FLAGS}"
   ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/camera
-)
-_generate_msg_py(camera
-  "/home/student/watergun_2016/src/camera/msg/BoundImage.msg"
-  "${MSG_I_FLAGS}"
-  "/home/student/watergun_2016/src/camera/msg/BoundBox.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/sensor_msgs/cmake/../msg/Image.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/camera
 )
 _generate_msg_py(camera
@@ -168,8 +141,6 @@ add_dependencies(camera_generate_messages camera_generate_messages_py)
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/student/watergun_2016/src/camera/msg/BoundBox.msg" NAME_WE)
-add_dependencies(camera_generate_messages_py _camera_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/watergun_2016/src/camera/msg/BoundImage.msg" NAME_WE)
 add_dependencies(camera_generate_messages_py _camera_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/student/watergun_2016/src/camera/msg/Target.msg" NAME_WE)
 add_dependencies(camera_generate_messages_py _camera_generate_messages_check_deps_${_filename})

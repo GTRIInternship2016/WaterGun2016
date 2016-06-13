@@ -46,7 +46,6 @@ CMAKE_BINARY_DIR = /home/student/watergun_2016/build
 include camera/CMakeFiles/camera_generate_messages_py.dir/progress.make
 
 camera/CMakeFiles/camera_generate_messages_py: /home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg/_BoundBox.py
-camera/CMakeFiles/camera_generate_messages_py: /home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg/_BoundImage.py
 camera/CMakeFiles/camera_generate_messages_py: /home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg/_Target.py
 camera/CMakeFiles/camera_generate_messages_py: /home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg/__init__.py
 
@@ -56,32 +55,21 @@ camera/CMakeFiles/camera_generate_messages_py: /home/student/watergun_2016/devel
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG camera/BoundBox"
 	cd /home/student/watergun_2016/build/camera && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/student/watergun_2016/src/camera/msg/BoundBox.msg -Icamera:/home/student/watergun_2016/src/camera/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p camera -o /home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg
 
-/home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg/_BoundImage.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
-/home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg/_BoundImage.py: /home/student/watergun_2016/src/camera/msg/BoundImage.msg
-/home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg/_BoundImage.py: /home/student/watergun_2016/src/camera/msg/BoundBox.msg
-/home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg/_BoundImage.py: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg/_BoundImage.py: /opt/ros/indigo/share/sensor_msgs/cmake/../msg/Image.msg
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/student/watergun_2016/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG camera/BoundImage"
-	cd /home/student/watergun_2016/build/camera && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/student/watergun_2016/src/camera/msg/BoundImage.msg -Icamera:/home/student/watergun_2016/src/camera/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p camera -o /home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg
-
 /home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg/_Target.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
 /home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg/_Target.py: /home/student/watergun_2016/src/camera/msg/Target.msg
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/student/watergun_2016/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/student/watergun_2016/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG camera/Target"
 	cd /home/student/watergun_2016/build/camera && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/student/watergun_2016/src/camera/msg/Target.msg -Icamera:/home/student/watergun_2016/src/camera/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p camera -o /home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg
 
 /home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg/__init__.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
 /home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg/__init__.py: /home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg/_BoundBox.py
-/home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg/__init__.py: /home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg/_BoundImage.py
 /home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg/__init__.py: /home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg/_Target.py
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/student/watergun_2016/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/student/watergun_2016/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python msg __init__.py for camera"
 	cd /home/student/watergun_2016/build/camera && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg --initpy
 
 camera_generate_messages_py: camera/CMakeFiles/camera_generate_messages_py
 camera_generate_messages_py: /home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg/_BoundBox.py
-camera_generate_messages_py: /home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg/_BoundImage.py
 camera_generate_messages_py: /home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg/_Target.py
 camera_generate_messages_py: /home/student/watergun_2016/devel/lib/python2.7/dist-packages/camera/msg/__init__.py
 camera_generate_messages_py: camera/CMakeFiles/camera_generate_messages_py.dir/build.make

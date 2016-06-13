@@ -46,7 +46,6 @@ CMAKE_BINARY_DIR = /home/student/watergun_2016/build
 include camera/CMakeFiles/camera_generate_messages_cpp.dir/progress.make
 
 camera/CMakeFiles/camera_generate_messages_cpp: /home/student/watergun_2016/devel/include/camera/BoundBox.h
-camera/CMakeFiles/camera_generate_messages_cpp: /home/student/watergun_2016/devel/include/camera/BoundImage.h
 camera/CMakeFiles/camera_generate_messages_cpp: /home/student/watergun_2016/devel/include/camera/Target.h
 
 /home/student/watergun_2016/devel/include/camera/BoundBox.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
@@ -56,26 +55,15 @@ camera/CMakeFiles/camera_generate_messages_cpp: /home/student/watergun_2016/deve
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from camera/BoundBox.msg"
 	cd /home/student/watergun_2016/build/camera && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/student/watergun_2016/src/camera/msg/BoundBox.msg -Icamera:/home/student/watergun_2016/src/camera/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p camera -o /home/student/watergun_2016/devel/include/camera -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/student/watergun_2016/devel/include/camera/BoundImage.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/student/watergun_2016/devel/include/camera/BoundImage.h: /home/student/watergun_2016/src/camera/msg/BoundImage.msg
-/home/student/watergun_2016/devel/include/camera/BoundImage.h: /home/student/watergun_2016/src/camera/msg/BoundBox.msg
-/home/student/watergun_2016/devel/include/camera/BoundImage.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/student/watergun_2016/devel/include/camera/BoundImage.h: /opt/ros/indigo/share/sensor_msgs/cmake/../msg/Image.msg
-/home/student/watergun_2016/devel/include/camera/BoundImage.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/student/watergun_2016/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from camera/BoundImage.msg"
-	cd /home/student/watergun_2016/build/camera && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/student/watergun_2016/src/camera/msg/BoundImage.msg -Icamera:/home/student/watergun_2016/src/camera/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p camera -o /home/student/watergun_2016/devel/include/camera -e /opt/ros/indigo/share/gencpp/cmake/..
-
 /home/student/watergun_2016/devel/include/camera/Target.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /home/student/watergun_2016/devel/include/camera/Target.h: /home/student/watergun_2016/src/camera/msg/Target.msg
 /home/student/watergun_2016/devel/include/camera/Target.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/student/watergun_2016/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/student/watergun_2016/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from camera/Target.msg"
 	cd /home/student/watergun_2016/build/camera && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/student/watergun_2016/src/camera/msg/Target.msg -Icamera:/home/student/watergun_2016/src/camera/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p camera -o /home/student/watergun_2016/devel/include/camera -e /opt/ros/indigo/share/gencpp/cmake/..
 
 camera_generate_messages_cpp: camera/CMakeFiles/camera_generate_messages_cpp
 camera_generate_messages_cpp: /home/student/watergun_2016/devel/include/camera/BoundBox.h
-camera_generate_messages_cpp: /home/student/watergun_2016/devel/include/camera/BoundImage.h
 camera_generate_messages_cpp: /home/student/watergun_2016/devel/include/camera/Target.h
 camera_generate_messages_cpp: camera/CMakeFiles/camera_generate_messages_cpp.dir/build.make
 .PHONY : camera_generate_messages_cpp

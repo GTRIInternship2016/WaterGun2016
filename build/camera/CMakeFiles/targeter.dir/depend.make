@@ -499,7 +499,6 @@ camera/CMakeFiles/targeter.dir/src/targeter.cpp.o: /home/student/Downloads/dlib-
 camera/CMakeFiles/targeter.dir/src/targeter.cpp.o: /home/student/Downloads/dlib-18.18/dlib/../dlib/unordered_pair.h
 camera/CMakeFiles/targeter.dir/src/targeter.cpp.o: /home/student/Downloads/dlib-18.18/dlib/../dlib/windows_magic.h
 camera/CMakeFiles/targeter.dir/src/targeter.cpp.o: /home/student/watergun_2016/devel/include/camera/BoundBox.h
-camera/CMakeFiles/targeter.dir/src/targeter.cpp.o: /home/student/watergun_2016/devel/include/camera/BoundImage.h
 camera/CMakeFiles/targeter.dir/src/targeter.cpp.o: /home/student/watergun_2016/src/camera/src/targeter.cpp
 camera/CMakeFiles/targeter.dir/src/targeter.cpp.o: /opt/ros/indigo/include/XmlRpcDecl.h
 camera/CMakeFiles/targeter.dir/src/targeter.cpp.o: /opt/ros/indigo/include/XmlRpcValue.h

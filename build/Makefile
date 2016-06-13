@@ -878,19 +878,6 @@ _camera_generate_messages_check_deps_BoundBox/fast:
 .PHONY : _camera_generate_messages_check_deps_BoundBox/fast
 
 #=============================================================================
-# Target rules for targets named _camera_generate_messages_check_deps_BoundImage
-
-# Build rule for target.
-_camera_generate_messages_check_deps_BoundImage: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _camera_generate_messages_check_deps_BoundImage
-.PHONY : _camera_generate_messages_check_deps_BoundImage
-
-# fast build rule for target.
-_camera_generate_messages_check_deps_BoundImage/fast:
-	$(MAKE) -f camera/CMakeFiles/_camera_generate_messages_check_deps_BoundImage.dir/build.make camera/CMakeFiles/_camera_generate_messages_check_deps_BoundImage.dir/build
-.PHONY : _camera_generate_messages_check_deps_BoundImage/fast
-
-#=============================================================================
 # Target rules for targets named _camera_generate_messages_check_deps_Target
 
 # Build rule for target.
@@ -1635,7 +1622,6 @@ help:
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... _camera_generate_messages_check_deps_BoundBox"
-	@echo "... _camera_generate_messages_check_deps_BoundImage"
 	@echo "... _camera_generate_messages_check_deps_Target"
 	@echo "... camera_gencpp"
 	@echo "... camera_generate_messages"

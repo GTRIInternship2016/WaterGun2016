@@ -5270,26 +5270,6 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/student/watergun_2016/devel/include/camera/BoundImage.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-sensor_msgs/Image.h
--
-camera/BoundBox.h
--
-
 /home/student/watergun_2016/src/camera/src/targeter.cpp
 ros/ros.h
 -
@@ -5304,8 +5284,6 @@ dlib/opencv/cv_image.h
 cv_bridge/cv_bridge.h
 -
 camera/BoundBox.h
--
-camera/BoundImage.h
 -
 std_msgs/Bool.h
 -

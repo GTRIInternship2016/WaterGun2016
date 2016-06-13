@@ -6,7 +6,6 @@
 #include <dlib/opencv/cv_image.h>
 #include <cv_bridge/cv_bridge.h>
 #include <camera/BoundBox.h>
-#include <camera/BoundImage.h>
 #include <std_msgs/Bool.h>
 #include <dlib/image_processing.h>
 
@@ -86,7 +85,7 @@ int main(int argc, char **argv)
   ros::init(argc, argv, "image_listener");
   ros::NodeHandle nh_img;
 
-  cv::namedWindow("current image");
+  cv::namedWindow("current image", cv::WINDOW_NORMAL);
   cv::startWindowThread();
 
   ros::Subscriber sub = nh_img.subscribe("image_raw", 1, imageCallback);

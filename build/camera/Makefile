@@ -164,20 +164,6 @@ _camera_generate_messages_check_deps_BoundBox/fast:
 .PHONY : _camera_generate_messages_check_deps_BoundBox/fast
 
 # Convenience name for target.
-camera/CMakeFiles/_camera_generate_messages_check_deps_BoundImage.dir/rule:
-	cd /home/student/watergun_2016/build && $(MAKE) -f CMakeFiles/Makefile2 camera/CMakeFiles/_camera_generate_messages_check_deps_BoundImage.dir/rule
-.PHONY : camera/CMakeFiles/_camera_generate_messages_check_deps_BoundImage.dir/rule
-
-# Convenience name for target.
-_camera_generate_messages_check_deps_BoundImage: camera/CMakeFiles/_camera_generate_messages_check_deps_BoundImage.dir/rule
-.PHONY : _camera_generate_messages_check_deps_BoundImage
-
-# fast build rule for target.
-_camera_generate_messages_check_deps_BoundImage/fast:
-	cd /home/student/watergun_2016/build && $(MAKE) -f camera/CMakeFiles/_camera_generate_messages_check_deps_BoundImage.dir/build.make camera/CMakeFiles/_camera_generate_messages_check_deps_BoundImage.dir/build
-.PHONY : _camera_generate_messages_check_deps_BoundImage/fast
-
-# Convenience name for target.
 camera/CMakeFiles/_camera_generate_messages_check_deps_Target.dir/rule:
 	cd /home/student/watergun_2016/build && $(MAKE) -f CMakeFiles/Makefile2 camera/CMakeFiles/_camera_generate_messages_check_deps_Target.dir/rule
 .PHONY : camera/CMakeFiles/_camera_generate_messages_check_deps_Target.dir/rule
@@ -494,7 +480,6 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... _camera_generate_messages_check_deps_BoundBox"
-	@echo "... _camera_generate_messages_check_deps_BoundImage"
 	@echo "... _camera_generate_messages_check_deps_Target"
 	@echo "... camera_gencpp"
 	@echo "... camera_generate_messages"

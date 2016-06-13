@@ -36,7 +36,6 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera/msg" TYPE FILE FILES
     "/home/student/watergun_2016/src/camera/msg/BoundBox.msg"
     "/home/student/watergun_2016/src/camera/msg/Target.msg"
-    "/home/student/watergun_2016/src/camera/msg/BoundImage.msg"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

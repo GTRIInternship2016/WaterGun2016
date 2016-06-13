@@ -500,7 +500,6 @@ camera/CMakeFiles/targeter.dir/src/targeter.cpp.o
  /home/student/Downloads/dlib-18.18/dlib/../dlib/unordered_pair.h
  /home/student/Downloads/dlib-18.18/dlib/../dlib/windows_magic.h
  /home/student/watergun_2016/devel/include/camera/BoundBox.h
- /home/student/watergun_2016/devel/include/camera/BoundImage.h
  /home/student/watergun_2016/src/camera/src/targeter.cpp
  /opt/ros/indigo/include/XmlRpcDecl.h
  /opt/ros/indigo/include/XmlRpcValue.h

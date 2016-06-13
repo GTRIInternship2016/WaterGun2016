@@ -1,7 +1,6 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/camera_generate_messages_lisp"
   "/home/student/watergun_2016/devel/share/common-lisp/ros/camera/msg/BoundBox.lisp"
-  "/home/student/watergun_2016/devel/share/common-lisp/ros/camera/msg/BoundImage.lisp"
   "/home/student/watergun_2016/devel/share/common-lisp/ros/camera/msg/Target.lisp"
 )
 

@@ -1,6 +1,5 @@
 /home/student/watergun_2016/build/rosaria/CMakeFiles/RosAria.dir
 /home/student/watergun_2016/build/camera/CMakeFiles/_camera_generate_messages_check_deps_BoundBox.dir
-/home/student/watergun_2016/build/camera/CMakeFiles/_camera_generate_messages_check_deps_BoundImage.dir
 /home/student/watergun_2016/build/camera/CMakeFiles/_camera_generate_messages_check_deps_Target.dir
 /home/student/watergun_2016/build/rosserial/rosserial/CMakeFiles/_catkin_empty_exported_target.dir
 /home/student/watergun_2016/build/rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir

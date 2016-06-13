@@ -53,7 +53,6 @@ add_message_files(
    FILES
    BoundBox.msg
    Target.msg
-   BoundImage.msg
  )
 
 ## Generate services in the 'srv' folder

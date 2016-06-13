@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
-messages_str = "/home/student/watergun_2016/src/camera/msg/BoundBox.msg;/home/student/watergun_2016/src/camera/msg/Target.msg;/home/student/watergun_2016/src/camera/msg/BoundImage.msg"
+messages_str = "/home/student/watergun_2016/src/camera/msg/BoundBox.msg;/home/student/watergun_2016/src/camera/msg/Target.msg"
 services_str = ""
 pkg_name = "camera"
 dependencies_str = "std_msgs;sensor_msgs"
