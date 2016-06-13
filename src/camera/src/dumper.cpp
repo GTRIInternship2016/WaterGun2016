@@ -11,17 +11,17 @@ int main(int argc, char** argv)
 
   ros::init(argc, argv, "dumper");
   ros::NodeHandle nh;
-  ros::NodeHandle err_nh;
   image_transport::ImageTransport it(nh);
   image_transport::Publisher pub = it.advertise("image_raw", 1);
-  ros::Publisher err = err_nh.advertise<std_msgs::String>("logger_information", 1000);
 
   cv::VideoCapture cap(0);
   // Check if video device can be opened with the given index
   if(!cap.isOpened()){
-      cout << "Error bra";
+      cout << "Error bra" << endl;
       return 1;
   }
+  cap.set(CV_CAP_PROP_FRAME_WIDTH, 1920);
+  cap.set(CV_CAP_PROP_FRAME_HEIGHT, 1080);
   cv::Mat frame;
   sensor_msgs::ImagePtr msg;
   while (nh.ok()) {
