@@ -6,8 +6,8 @@
 
 using namespace camera;
 
-#define MAX_X 550 //this should be 1920 when we fix camera
-#define MAX_Y 275 //ditttto
+#define MAX_X 1920
+#define MAX_Y 1080
 #define BX (2.0/MAX_X)
 #define BY (2.0/MAX_Y)
 #define CAMERA_BOT_ANGLE 1.0
