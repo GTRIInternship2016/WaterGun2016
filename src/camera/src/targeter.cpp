@@ -90,7 +90,7 @@ int main(int argc, char **argv)
 
   ros::Subscriber sub = nh_img.subscribe("image_raw", 1, imageCallback);
   ros::NodeHandle nh_pub;
-  ros::Rate temp(10);
+  ros::Rate temp(40);
   r = &temp;
   pub = nh_pub.advertise<BoundBox>("img_target",10);
   ros::NodeHandle nh_inbox;

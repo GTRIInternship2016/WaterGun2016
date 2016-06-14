@@ -8,10 +8,10 @@ using namespace camera;
 
 #define MAX_X 1920
 #define MAX_Y 1080
-#define BX (2.0/MAX_X)
-#define BY (2.0/MAX_Y)
-#define CAMERA_BOT_ANGLE 1.0
-#define BOT_HEIGHT 1.0
+#define BX 0.00064013588
+#define BY 0.00069489961
+#define CAMERA_BOT_ANGLE 1.40081093
+#define BOT_HEIGHT 0.2921
 
 ros::Publisher pub;
 ros::Rate* r;
@@ -25,9 +25,9 @@ void boxCallback(const BoundBox::ConstPtr& box)
 {
     int cx = box->x + (box->w / 2);
     int mid_x = MAX_X / 2;
-    double angle_elevation = CAMERA_BOT_ANGLE - (BY * (MAX_Y - box->y - box->h));
+    double angle_elevation = CAMERA_BOT_ANGLE + (BY * (MAX_Y - box->y - box->h));
     Target tar;
-    tar.z = BOT_HEIGHT / tan(angle_elevation);
+    tar.z = BOT_HEIGHT * tan(angle_elevation);
     tar.x = pxToReal(cx - mid_x, tar.z, BX);
     tar.y = pxToReal(box->h / 2, tar.z, BY);
 
@@ -49,7 +49,7 @@ int main(int argc, char **argv)
     ros::NodeHandle pub_n;
     ros::NodeHandle sub_n;
 
-    ros::Rate temp(5);
+    ros::Rate temp(60);
     r = &temp;
 
     ros::Subscriber sub = sub_n.subscribe("img_target", 10, boxCallback);
