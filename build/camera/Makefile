@@ -346,6 +346,90 @@ geometry_msgs_generate_messages_py/fast:
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 # Convenience name for target.
+camera/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
+	cd /home/student/watergun_2016/build && $(MAKE) -f CMakeFiles/Makefile2 camera/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : camera/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_cpp: camera/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : roscpp_generate_messages_cpp
+
+# fast build rule for target.
+roscpp_generate_messages_cpp/fast:
+	cd /home/student/watergun_2016/build && $(MAKE) -f camera/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make camera/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+.PHONY : roscpp_generate_messages_cpp/fast
+
+# Convenience name for target.
+camera/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
+	cd /home/student/watergun_2016/build && $(MAKE) -f CMakeFiles/Makefile2 camera/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+.PHONY : camera/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_lisp: camera/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+.PHONY : roscpp_generate_messages_lisp
+
+# fast build rule for target.
+roscpp_generate_messages_lisp/fast:
+	cd /home/student/watergun_2016/build && $(MAKE) -f camera/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make camera/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+.PHONY : roscpp_generate_messages_lisp/fast
+
+# Convenience name for target.
+camera/CMakeFiles/roscpp_generate_messages_py.dir/rule:
+	cd /home/student/watergun_2016/build && $(MAKE) -f CMakeFiles/Makefile2 camera/CMakeFiles/roscpp_generate_messages_py.dir/rule
+.PHONY : camera/CMakeFiles/roscpp_generate_messages_py.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_py: camera/CMakeFiles/roscpp_generate_messages_py.dir/rule
+.PHONY : roscpp_generate_messages_py
+
+# fast build rule for target.
+roscpp_generate_messages_py/fast:
+	cd /home/student/watergun_2016/build && $(MAKE) -f camera/CMakeFiles/roscpp_generate_messages_py.dir/build.make camera/CMakeFiles/roscpp_generate_messages_py.dir/build
+.PHONY : roscpp_generate_messages_py/fast
+
+# Convenience name for target.
+camera/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
+	cd /home/student/watergun_2016/build && $(MAKE) -f CMakeFiles/Makefile2 camera/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : camera/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_cpp: camera/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_cpp/fast:
+	cd /home/student/watergun_2016/build && $(MAKE) -f camera/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make camera/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+camera/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
+	cd /home/student/watergun_2016/build && $(MAKE) -f CMakeFiles/Makefile2 camera/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+.PHONY : camera/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_lisp: camera/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+.PHONY : rosgraph_msgs_generate_messages_lisp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_lisp/fast:
+	cd /home/student/watergun_2016/build && $(MAKE) -f camera/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make camera/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+camera/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
+	cd /home/student/watergun_2016/build && $(MAKE) -f CMakeFiles/Makefile2 camera/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+.PHONY : camera/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_py: camera/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+.PHONY : rosgraph_msgs_generate_messages_py
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_py/fast:
+	cd /home/student/watergun_2016/build && $(MAKE) -f camera/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make camera/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+.PHONY : rosgraph_msgs_generate_messages_py/fast
+
+# Convenience name for target.
 camera/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
 	cd /home/student/watergun_2016/build && $(MAKE) -f CMakeFiles/Makefile2 camera/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 .PHONY : camera/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
@@ -386,6 +470,48 @@ sensor_msgs_generate_messages_py: camera/CMakeFiles/sensor_msgs_generate_message
 sensor_msgs_generate_messages_py/fast:
 	cd /home/student/watergun_2016/build && $(MAKE) -f camera/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make camera/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 .PHONY : sensor_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+camera/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
+	cd /home/student/watergun_2016/build && $(MAKE) -f CMakeFiles/Makefile2 camera/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+.PHONY : camera/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_cpp: camera/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+.PHONY : std_msgs_generate_messages_cpp
+
+# fast build rule for target.
+std_msgs_generate_messages_cpp/fast:
+	cd /home/student/watergun_2016/build && $(MAKE) -f camera/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make camera/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+.PHONY : std_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+camera/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
+	cd /home/student/watergun_2016/build && $(MAKE) -f CMakeFiles/Makefile2 camera/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : camera/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_lisp: camera/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : std_msgs_generate_messages_lisp
+
+# fast build rule for target.
+std_msgs_generate_messages_lisp/fast:
+	cd /home/student/watergun_2016/build && $(MAKE) -f camera/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make camera/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+.PHONY : std_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+camera/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
+	cd /home/student/watergun_2016/build && $(MAKE) -f CMakeFiles/Makefile2 camera/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+.PHONY : camera/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_py: camera/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+.PHONY : std_msgs_generate_messages_py
+
+# fast build rule for target.
+std_msgs_generate_messages_py/fast:
+	cd /home/student/watergun_2016/build && $(MAKE) -f camera/CMakeFiles/std_msgs_generate_messages_py.dir/build.make camera/CMakeFiles/std_msgs_generate_messages_py.dir/build
+.PHONY : std_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 camera/CMakeFiles/targeter.dir/rule:
@@ -499,9 +625,18 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... roscpp_generate_messages_cpp"
+	@echo "... roscpp_generate_messages_lisp"
+	@echo "... roscpp_generate_messages_py"
+	@echo "... rosgraph_msgs_generate_messages_cpp"
+	@echo "... rosgraph_msgs_generate_messages_lisp"
+	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... sensor_msgs_generate_messages_py"
+	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... std_msgs_generate_messages_lisp"
+	@echo "... std_msgs_generate_messages_py"
 	@echo "... targeter"
 	@echo "... test"
 	@echo "... src/cameralogic.o"
