@@ -1,0 +1,27 @@
+obstacle_range: 2.5
+#raytrace_range: 3.0
+footprint: [[-0.25, 0.25], [0.25, 0.25], [0.25, -0.25], [-0.25, -0.25]]
+footprint_padding: 0.01
+
+robot_base_frame: base_link
+update_frequency: 4.0
+publish_frequency: 3.0
+transform_tolerance: 0.5
+
+resolution: 0.15
+
+inflation:
+   inflation_radius: 0.55
+
+static:
+   map_topic: /map
+   subscribe_to_updates: true
+
+obstacles_laser:
+   observation_sources: laser
+   laser: {data_type: LaserScan, clearing: true, marking: true, topic: scan, inf_is_valid: true}
+
+obstacles_sonar:
+  observation_sources: sonar
+  sonar: {sensor_frame: odom, data_type: PointCloud, topic: /RosAria/sonar, marking: true, clearing: true}
+

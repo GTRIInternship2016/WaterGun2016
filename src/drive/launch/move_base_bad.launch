@@ -1,0 +1,20 @@
+<launch>
+ <arg name="no_static_map" default="true"/>
+
+ <!-- Run the map server
+ <node name="map_server" pkg="map_server" type="map_server"/>
+-->
+
+ <!--- Run AMCL -->
+ <include file="$(find amcl)/examples/amcl_diff.launch" />
+
+ <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+   <rosparam file="/home/student/watergun_2016/src/drive/costmap_common_params.yaml" command="load" ns="global_costmap" />
+   <rosparam file="/home/student/watergun_2016/src/drive/costmap_common_params.yaml" command="load" ns="local_costmap" />
+   <rosparam file="/home/student/watergun_2016/src/drive/local_costmap_params.yaml" command="load" />
+   <rosparam file="/home/student/watergun_2016/src/drive/base_local_planner_params.yaml" command="load" />
+   <rosparam file="/home/student/watergun_2016/src/drive/global_costmap_params.yaml" command="load" />
+   <param name="global_costmap/width" value="100.0" if="$(arg no_static_map)"/>
+   <param name="global_costmap/height" value="100.0" if="$(arg no_static_map)"/>
+ </node>
+</launch>
