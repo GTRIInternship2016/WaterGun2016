@@ -130,6 +130,7 @@ include_directories(
 
 ## Declare a C++ executable
 add_executable(odom src/odom.cpp)
+add_executable(drive src/drive.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
@@ -137,6 +138,10 @@ add_executable(odom src/odom.cpp)
 
 ## Specify libraries to link a library or executable target against
 target_link_libraries(odom
+  ${catkin_LIBRARIES}
+)
+
+target_link_libraries(drive
   ${catkin_LIBRARIES}
 )
 

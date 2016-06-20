@@ -1,0 +1,12 @@
+<launch>
+  <node pkg="rosaria" type="RosAria" name="The_Robot_Brahgh" output="screen">
+    <param name="port" value="/dev/ttyUSB0"/>
+  </node>
+  <include file="/home/student/watergun_2016/src/drive/launch/drive.launch"/>
+  <include file="/home/student/watergun_2016/src/camera/launch/camera.launch"/>
+  <!--
+  <include file="/home/student/watergun_2016/src/watergun/launch/watergun.launch"/>
+  -->
+  <node pkg="rviz" type="rviz" name="rviz" 
+    args="-d /home/student/watergun_2016/robot.rviz"/>
+</launch>

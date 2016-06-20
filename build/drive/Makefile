@@ -234,6 +234,20 @@ actionlib_msgs_generate_messages_py/fast:
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 # Convenience name for target.
+drive/CMakeFiles/drive.dir/rule:
+	cd /home/student/watergun_2016/build && $(MAKE) -f CMakeFiles/Makefile2 drive/CMakeFiles/drive.dir/rule
+.PHONY : drive/CMakeFiles/drive.dir/rule
+
+# Convenience name for target.
+drive: drive/CMakeFiles/drive.dir/rule
+.PHONY : drive
+
+# fast build rule for target.
+drive/fast:
+	cd /home/student/watergun_2016/build && $(MAKE) -f drive/CMakeFiles/drive.dir/build.make drive/CMakeFiles/drive.dir/build
+.PHONY : drive/fast
+
+# Convenience name for target.
 drive/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
 	cd /home/student/watergun_2016/build && $(MAKE) -f CMakeFiles/Makefile2 drive/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 .PHONY : drive/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
@@ -373,6 +387,30 @@ tf_generate_messages_py/fast:
 	cd /home/student/watergun_2016/build && $(MAKE) -f drive/CMakeFiles/tf_generate_messages_py.dir/build.make drive/CMakeFiles/tf_generate_messages_py.dir/build
 .PHONY : tf_generate_messages_py/fast
 
+src/drive.o: src/drive.cpp.o
+.PHONY : src/drive.o
+
+# target to build an object file
+src/drive.cpp.o:
+	cd /home/student/watergun_2016/build && $(MAKE) -f drive/CMakeFiles/drive.dir/build.make drive/CMakeFiles/drive.dir/src/drive.cpp.o
+.PHONY : src/drive.cpp.o
+
+src/drive.i: src/drive.cpp.i
+.PHONY : src/drive.i
+
+# target to preprocess a source file
+src/drive.cpp.i:
+	cd /home/student/watergun_2016/build && $(MAKE) -f drive/CMakeFiles/drive.dir/build.make drive/CMakeFiles/drive.dir/src/drive.cpp.i
+.PHONY : src/drive.cpp.i
+
+src/drive.s: src/drive.cpp.s
+.PHONY : src/drive.s
+
+# target to generate assembly for a file
+src/drive.cpp.s:
+	cd /home/student/watergun_2016/build && $(MAKE) -f drive/CMakeFiles/drive.dir/build.make drive/CMakeFiles/drive.dir/src/drive.cpp.s
+.PHONY : src/drive.cpp.s
+
 src/odom.o: src/odom.cpp.o
 .PHONY : src/odom.o
 
@@ -409,6 +447,7 @@ help:
 	@echo "... actionlib_msgs_generate_messages_cpp"
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... actionlib_msgs_generate_messages_py"
+	@echo "... drive"
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
@@ -426,6 +465,9 @@ help:
 	@echo "... tf_generate_messages_cpp"
 	@echo "... tf_generate_messages_lisp"
 	@echo "... tf_generate_messages_py"
+	@echo "... src/drive.o"
+	@echo "... src/drive.i"
+	@echo "... src/drive.s"
 	@echo "... src/odom.o"
 	@echo "... src/odom.i"
 	@echo "... src/odom.s"

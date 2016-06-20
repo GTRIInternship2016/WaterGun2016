@@ -82,7 +82,7 @@ void okCallback(const std_msgs::BoolConstPtr& msg){
 
 int main(int argc, char **argv)
 {
-  ros::init(argc, argv, "image_listener");
+  ros::init(argc, argv, "targeter");
   ros::NodeHandle nh_img;
 
   cv::namedWindow("current image", cv::WINDOW_NORMAL);

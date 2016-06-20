@@ -34,6 +34,7 @@
 /home/student/watergun_2016/build/camera/dlib_build/CMakeFiles/dlib.dir
 /home/student/watergun_2016/build/CMakeFiles/download_extra_data.dir
 /home/student/watergun_2016/build/CMakeFiles/doxygen.dir
+/home/student/watergun_2016/build/drive/CMakeFiles/drive.dir
 /home/student/watergun_2016/build/camera/CMakeFiles/dumper.dir
 /home/student/watergun_2016/build/rosaria/CMakeFiles/dynamic_reconfigure_gencfg.dir
 /home/student/watergun_2016/build/rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir

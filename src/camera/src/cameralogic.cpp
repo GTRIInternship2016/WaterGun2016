@@ -10,8 +10,8 @@ using namespace camera;
 #define MAX_Y 1080
 #define BX 0.00064013588
 #define BY 0.00069489961
-#define CAMERA_BOT_ANGLE 1.40081093
-#define BOT_HEIGHT 0.2921
+#define CAMERA_BOT_ANGLE 1.29249667
+#define BOT_HEIGHT 0.3556
 
 ros::Publisher pub;
 ros::Rate* r;

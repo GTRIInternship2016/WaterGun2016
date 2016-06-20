@@ -1255,6 +1255,19 @@ actionlib_msgs_generate_messages_py/fast:
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named drive
+
+# Build rule for target.
+drive: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 drive
+.PHONY : drive
+
+# fast build rule for target.
+drive/fast:
+	$(MAKE) -f drive/CMakeFiles/drive.dir/build.make drive/CMakeFiles/drive.dir/build
+.PHONY : drive/fast
+
+#=============================================================================
 # Target rules for targets named nav_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -1664,6 +1677,7 @@ help:
 	@echo "... actionlib_msgs_generate_messages_cpp"
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... actionlib_msgs_generate_messages_py"
+	@echo "... drive"
 	@echo "... nav_msgs_generate_messages_cpp"
 	@echo "... nav_msgs_generate_messages_lisp"
 	@echo "... nav_msgs_generate_messages_py"

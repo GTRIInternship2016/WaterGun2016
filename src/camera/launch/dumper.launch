@@ -1,0 +1,3 @@
+<launch>
+   <node pkg="camera" type="dumper" name="dumper" output="screen"/>
+</launch>
