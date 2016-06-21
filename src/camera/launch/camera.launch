@@ -1,0 +1,7 @@
+<launch>
+
+<node pkg="camera" type="dumper" name="dumper" output="screen"/>
+<node pkg="camera" type="targeter" name="targeter" output="screen"/>
+<node pkg="camera" type="cameralogic" name="cameralogic" output="screen"/>
+
+</launch>

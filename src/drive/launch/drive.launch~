@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="drive" type="odom" name="odom" output="screen"/>
+  <node pkg="urg_node" type="urg_node" name="urg_node" output="screen"/>
+  <node pkg="tf" type="static_transform_publisher" name="laser_tfS" args="0 0 0 0 0 0 base_link laser  1000" />
+  <node pkg="drive" type="poopybuttface" name="poopybuttface" output="screen"/>
+  <include file="/home/student/watergun_2016/src/drive/launch/move_base.launch"/>
+  <include file="/home/student/watergun_2016/src/drive/launch/amcl.launch"/>
+</launch>
