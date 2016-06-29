@@ -1,0 +1,3 @@
+<launch>
+   <node pkg="pedtarget" type="pedtarget" name="pedtarget" output="screen"/>
+</launch>

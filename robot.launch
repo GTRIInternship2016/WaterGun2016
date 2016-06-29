@@ -4,9 +4,10 @@
   </node>
   <include file="/home/student/watergun_2016/src/drive/launch/drive.launch"/>
   <include file="/home/student/watergun_2016/src/camera/launch/camera.launch"/>
-  <!--
+  <node pkg="rosserial_python" type="serial_node.py" name="arduino">
+    <param name="port" value="/dev/ttyACM1"/>
+  </node>
   <include file="/home/student/watergun_2016/src/watergun/launch/watergun.launch"/>
-  -->
   <node pkg="rviz" type="rviz" name="rviz" 
     args="-d /home/student/watergun_2016/robot.rviz"/>
 </launch>

@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(camera_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/student/watergun_2016/devel/include;/home/student/watergun_2016/src/camera/include " STREQUAL " ")
+if(NOT "/home/student/watergun_2016/devel/include " STREQUAL " ")
   set(camera_INCLUDE_DIRS "")
-  set(_include_dirs "/home/student/watergun_2016/devel/include;/home/student/watergun_2016/src/camera/include")
+  set(_include_dirs "/home/student/watergun_2016/devel/include")
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
       set(include ${idir})

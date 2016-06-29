@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="watergun" type="watergun" name="watergun" output="screen"/>
+</launch>
+

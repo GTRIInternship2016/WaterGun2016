@@ -1,0 +1,3 @@
+<launch>
+   <node pkg="peddetector" type="pedtracker" name="pedtracker" output="screen"/>
+</launch>

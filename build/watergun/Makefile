@@ -149,6 +149,44 @@ depend:
 	cd /home/student/watergun_2016/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+watergun/CMakeFiles/watergun.dir/rule:
+	cd /home/student/watergun_2016/build && $(MAKE) -f CMakeFiles/Makefile2 watergun/CMakeFiles/watergun.dir/rule
+.PHONY : watergun/CMakeFiles/watergun.dir/rule
+
+# Convenience name for target.
+watergun: watergun/CMakeFiles/watergun.dir/rule
+.PHONY : watergun
+
+# fast build rule for target.
+watergun/fast:
+	cd /home/student/watergun_2016/build && $(MAKE) -f watergun/CMakeFiles/watergun.dir/build.make watergun/CMakeFiles/watergun.dir/build
+.PHONY : watergun/fast
+
+src/watergun.o: src/watergun.cpp.o
+.PHONY : src/watergun.o
+
+# target to build an object file
+src/watergun.cpp.o:
+	cd /home/student/watergun_2016/build && $(MAKE) -f watergun/CMakeFiles/watergun.dir/build.make watergun/CMakeFiles/watergun.dir/src/watergun.cpp.o
+.PHONY : src/watergun.cpp.o
+
+src/watergun.i: src/watergun.cpp.i
+.PHONY : src/watergun.i
+
+# target to preprocess a source file
+src/watergun.cpp.i:
+	cd /home/student/watergun_2016/build && $(MAKE) -f watergun/CMakeFiles/watergun.dir/build.make watergun/CMakeFiles/watergun.dir/src/watergun.cpp.i
+.PHONY : src/watergun.cpp.i
+
+src/watergun.s: src/watergun.cpp.s
+.PHONY : src/watergun.s
+
+# target to generate assembly for a file
+src/watergun.cpp.s:
+	cd /home/student/watergun_2016/build && $(MAKE) -f watergun/CMakeFiles/watergun.dir/build.make watergun/CMakeFiles/watergun.dir/src/watergun.cpp.s
+.PHONY : src/watergun.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +200,10 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... watergun"
+	@echo "... src/watergun.o"
+	@echo "... src/watergun.i"
+	@echo "... src/watergun.s"
 .PHONY : help
 
 

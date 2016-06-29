@@ -1,0 +1,8 @@
+prefix=/home/student/watergun_2016/devel
+
+Name: peddetector
+Description: Description of peddetector
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/student/watergun_2016/devel/lib -lpeddetector
+Requires: cv_bridge image_transport roscpp std_msgs

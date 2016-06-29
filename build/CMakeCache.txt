@@ -692,6 +692,18 @@ nsllib:FILEPATH=/usr/lib/x86_64-linux-gnu/libnsl.so
 //The directory containing a CMake configuration file for opencv2.
 opencv2_DIR:PATH=opencv2_DIR-NOTFOUND
 
+//Value Computed by CMake
+peddetector_BINARY_DIR:STATIC=/home/student/watergun_2016/build/peddetector
+
+//Value Computed by CMake
+peddetector_SOURCE_DIR:STATIC=/home/student/watergun_2016/src/peddetector
+
+//Value Computed by CMake
+pedtarget_BINARY_DIR:STATIC=/home/student/watergun_2016/build/pedtarget
+
+//Value Computed by CMake
+pedtarget_SOURCE_DIR:STATIC=/home/student/watergun_2016/src/pedtarget
+
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/indigo/share/pluginlib/cmake
 
@@ -984,7 +996,7 @@ CMAKE_NO_ANSI_STREAM_HEADERS:INTERNAL=0
 //Does the compiler support std::.
 CMAKE_NO_STD_NAMESPACE:INTERNAL=0
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=18
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=21
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

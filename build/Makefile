@@ -1112,6 +1112,45 @@ dlib/fast:
 .PHONY : dlib/fast
 
 #=============================================================================
+# Target rules for targets named pedtracker
+
+# Build rule for target.
+pedtracker: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pedtracker
+.PHONY : pedtracker
+
+# fast build rule for target.
+pedtracker/fast:
+	$(MAKE) -f peddetector/CMakeFiles/pedtracker.dir/build.make peddetector/CMakeFiles/pedtracker.dir/build
+.PHONY : pedtracker/fast
+
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) -f peddetector/src/CMakeFiles/main.dir/build.make peddetector/src/CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
+# Target rules for targets named pedtarget
+
+# Build rule for target.
+pedtarget: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pedtarget
+.PHONY : pedtarget
+
+# fast build rule for target.
+pedtarget/fast:
+	$(MAKE) -f pedtarget/CMakeFiles/pedtarget.dir/build.make pedtarget/CMakeFiles/pedtarget.dir/build
+.PHONY : pedtarget/fast
+
+#=============================================================================
 # Target rules for targets named rosserial_server_serial_node
 
 # Build rule for target.
@@ -1579,6 +1618,19 @@ rosaria_genpy/fast:
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_genpy.dir/build.make rosaria/CMakeFiles/rosaria_genpy.dir/build
 .PHONY : rosaria_genpy/fast
 
+#=============================================================================
+# Target rules for targets named watergun
+
+# Build rule for target.
+watergun: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 watergun
+.PHONY : watergun
+
+# fast build rule for target.
+watergun/fast:
+	$(MAKE) -f watergun/CMakeFiles/watergun.dir/build.make watergun/CMakeFiles/watergun.dir/build
+.PHONY : watergun/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1666,6 +1718,9 @@ help:
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... targeter"
 	@echo "... dlib"
+	@echo "... pedtracker"
+	@echo "... main"
+	@echo "... pedtarget"
 	@echo "... rosserial_server_serial_node"
 	@echo "... rosserial_server_socket_node"
 	@echo "... topic_tools_generate_messages_cpp"
@@ -1702,6 +1757,7 @@ help:
 	@echo "... rosaria_generate_messages_py"
 	@echo "... rosaria_genlisp"
 	@echo "... rosaria_genpy"
+	@echo "... watergun"
 .PHONY : help
 
 
