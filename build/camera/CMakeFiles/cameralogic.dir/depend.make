@@ -60,4 +60,7 @@ camera/CMakeFiles/cameralogic.dir/src/cameralogic.cpp.o: /opt/ros/indigo/include
 camera/CMakeFiles/cameralogic.dir/src/cameralogic.cpp.o: /opt/ros/indigo/include/ros/wall_timer.h
 camera/CMakeFiles/cameralogic.dir/src/cameralogic.cpp.o: /opt/ros/indigo/include/ros/wall_timer_options.h
 camera/CMakeFiles/cameralogic.dir/src/cameralogic.cpp.o: /opt/ros/indigo/include/rosconsole/macros_generated.h
+camera/CMakeFiles/cameralogic.dir/src/cameralogic.cpp.o: /opt/ros/indigo/include/sensor_msgs/LaserScan.h
+camera/CMakeFiles/cameralogic.dir/src/cameralogic.cpp.o: /opt/ros/indigo/include/std_msgs/Float32.h
+camera/CMakeFiles/cameralogic.dir/src/cameralogic.cpp.o: /opt/ros/indigo/include/std_msgs/Header.h
 
